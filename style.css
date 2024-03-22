@@ -127,7 +127,7 @@ input[type="submit"], input[type="reset"] {
 input[type="email"],
 input[type="tel"],
 input[type="url"], textarea {
-  width: 100%;
+  width: 98.5%;
   border: 1px solid #ccc;
   padding: .75rem;
 }
@@ -141,7 +141,11 @@ input[type="url"], textarea {
   justify-content: center;
 }
 
-.caixa-cinza input[type="submit"], a {
-  margin-right: 15px;
+.caixa-cinza a {
+  margin-left: 15px;
+}
+
+.caixa-cinza input[type="submit"] {
+  width: 98.5%;
   margin-left: 15px;
 }
